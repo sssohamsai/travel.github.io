@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ .container{
+     max-width: 1300px;
+     width: 100%;
+     margin: 0 auto;
+ }
+ body{
+     font-family: "Oleo Script", serif;
+ }
+ body,html{
+     overflow-x: hidden;
+    
+ }
+ .new a:hover{
+   color: blue !important;
+ }
+ .new-active a{
+     color: blue !important;
+ }
+ .banner-section{
+     background-image: url(../images/2151682921.jpg);
+     height: 600px;
+     background-repeat: no-repeat;
+     padding: 100px 0;
+     background-position: center center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+ }
+.banner-section p{
+    color: white;
+    width: 650px;
+ }
+
+ button a{
+    color: white;
+ }
+
+ .carded{
+    border: none;
+    box-shadow: 8px 4px 18px grey;
+ }
+
+ .card i{
+    font-size: 50px;
+    padding: 30px 20px;
+ }
+
+ .carded:hover{
+    background-color: rgb(1, 189, 206);
+    color: white;
+    transition: .9s;
+ }
+
+ .ahead{
+    padding: 100px 100px;
+    
+ }
+ 
+ .abt-card{
+    width: 650px;
+    border: none;
+ }
+
+.abt-card img{
+    width: 600px;
+    height: 550px;
+}
+
+.about-right{
+    padding: 60px 50px;
+    width: 631px;
+}
+
+.right-icon i{
+    font-size: 40px;
+    padding: 20px 30px;
+    background-color: white;
+    border-radius: 60%;
+}
+
+.slider-section{
+    margin-top: 150px;
+    height: 150px;
+}
+.progress-section{
+    padding-top: 100px;
+}
+
+.ser-heading{
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.ser-card{
+    margin-bottom: 100px;
+}
+.ser-card i,
+.ser-card h3{
+    display: flex;
+    justify-content: center;
+}
+.ser-card:hover{
+    box-shadow: 1px 1px 14px rgb(1, 30, 247);
+    border-radius: 15px;
+    transition: .5s;
+    outline: black;
+    transform: translateY(-20px)
+}
+
+.team-section p{
+    font-family: "Afacad Flux", serif !important;
+    font-weight:500;
+}
+
+.team-sec{
+    box-shadow: 5px 5px 22px grey;
+    border-radius: 15px;
+}
+
+.team-section img{
+    
+    padding-top: 10px;
+    border-radius: 10px;
+}
+
+.ico i{
+    font-size: 30px;
+}
+
+.inpt input{
+width: 280px;
+}
+
+.email1  input,
+.email1 label{
+    margin-left: 68px;
+}
+
+.btns{
+    width: 150px;
+}
+.item2 li a,
+.item3 li a{
+text-decoration: none;
+color: black;
+
+}
